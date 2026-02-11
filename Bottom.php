@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_to_cart'])) {
     }
 }
 
-$category_id = 3;
+$category_id = 2;
 $sql = "SELECT * FROM products WHERE category_id = $category_id ORDER BY uploaded_at DESC";
 $result = $conn->query($sql);
 ?>
@@ -43,7 +43,7 @@ $result = $conn->query($sql);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sweatshirt</title>
+    <title>Bottom</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
     <!-- Google Font -->
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
@@ -186,7 +186,7 @@ $result = $conn->query($sql);
     Please log in to place an order.<br>Redirecting to login page...
 </div>
 
-<h2>SWEATSHIRT - Collection</h2>
+<h2>BOTTOM - Collection</h2>
 
 <div class="product-grid">
     <?php if ($result->num_rows > 0): ?>
