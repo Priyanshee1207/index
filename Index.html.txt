@@ -1,8 +1,0 @@
-<html>
-<head>
-<title>Project01</title>
-</head>
-<body>
-<h1>Hello, good day </h1>
-</body>
-</html>
